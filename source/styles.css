@@ -1,8 +1,20 @@
+body {
+    background-color: #737373;
+}
+
 h1 {
-    color: bisque;
+    color: mediumslateblue;
     font-size: 30px;
 }
 
-table, th, td {
+table, th{
     border: 1px solid black;
+    padding: 10px;
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px solid rgba(240, 129, 11, 0.6);
+    padding: 10px;
+    border-collapse: collapse;
 }
