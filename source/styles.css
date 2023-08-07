@@ -2,3 +2,7 @@ h1 {
     color: bisque;
     font-size: 30px;
 }
+
+table, th, td {
+    border: 1px solid black;
+}
