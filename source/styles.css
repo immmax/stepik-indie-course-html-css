@@ -1,5 +1,41 @@
-body {
-    background-color: #737373;
+body, html {
+    height: 100%;
+    background-color: lightcoral;
+}
+
+.white-center-p {
+    color: yellow;
+    text-align: center;
+    font-size: 32px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+#logo {
+    width: 100%;
+    align-content: center;
+    background-color: purple;
+    border-radius: 50%;
+    /* margin: 50px; */
+    /* padding: 15%; */
+    position: absolute;
+    z-index: 1;
+    filter: blur(8px);
+
+}
+
+.bg-text {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    transform: translate(-50% -50%);
+    z-index: 2;
+    /* width: 80%; */
+    padding: inherit;
+    margin: 50px auto 20px;
 }
 
 h1 {
@@ -7,14 +43,30 @@ h1 {
     font-size: 30px;
 }
 
-table, th{
+table {
     border: 1px solid black;
     padding: 10px;
     border-collapse: collapse;
 }
 
-td {
-    border: 1px solid rgba(240, 129, 11, 0.6);
+
+th, td {
+    border: 1px solid rgba(50, 50, 90, 0.9);
     padding: 10px;
     border-collapse: collapse;
+}
+
+div {
+    border: 1px solid black;
+    /* padding: 10px; */
+    margin: 5px;
+}
+
+p {
+    text-align: center;
+    width: min-content;
+    border: 50px solid black;
+    padding: 100px;
+    margin: 200px auto;
+    background-color: cyan;
 }
